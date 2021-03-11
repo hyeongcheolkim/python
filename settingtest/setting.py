@@ -1,9 +1,8 @@
-print("hello")
-a=1
-b=2
-c=a+b
-print(c)
+age = 25
 
-
-
-#setting test
+if age > 65:
+    print("senior")
+elif age > 20:
+    print("adult")
+else:
+    print("young")
